@@ -10,7 +10,9 @@ def demonstrate_shape_creation():
     - Shape transformations
     """
     # Create a new layout
-    layout = pya.Layout()
+    layout = pya.Layout(
+        
+    )
     layout.dbu = 0.001
 
     # Create a main cell
